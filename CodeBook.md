@@ -13,18 +13,16 @@ All  of the numeric variables are means of measurements taken within the treatme
 NAME					DESCRIPTION					TYPE	RANGE
 
 ###subject
-* ID of subject wearing the Samsung Galaxy S 			integer	1-30
-				with accelerometer and gyroscope
+ID of subject wearing the Samsung Galaxy S with accelerometer and gyroscope
 
 ###activity				
-* activity during measurement					factor	LAYING, SITTING, STANDING, 												WALKING, 														WALKING_DOWNSTAIRS, 													WALKING_UPSTAIRS
+activity during measurement					factor	LAYING, SITTING, STANDING, 												WALKING, 														WALKING_DOWNSTAIRS, 													WALKING_UPSTAIRS
 
 ###tBodyAcc_mean_X			
-* time-based body acceleration  mean along X axis				-0.040514 to 0.3015
-
+time-based body acceleration  mean along X axis				-0.040514 to 0.3015
 ###tBodyAcc_mean_Y			
-* time-based body acceleration  mean along Y axis				-0.15251 to -0.001308	
-* tBodyAcc_mean_Z			
+time-based body acceleration  mean along Y axis				-0.15251 to -0.001308	
+###tBodyAcc_mean_Z			
 time-based body acceleration  mean along Z axis				-0.9961 to -0.07538	
 * tBodyAcc_std_X			
 time-based body acceleration standard deviation along X axis			-0.99024 to  0.6269	
