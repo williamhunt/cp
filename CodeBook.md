@@ -13,25 +13,25 @@ All  of the numeric variables are means of measurements taken within the treatme
 
 ####subject
 ID of subject wearing the Samsung Galaxy S with accelerometer and gyroscope
-###activity				
+####activity				
 activity during measurement
 
-###tBodyAcc_mean_X			
+####tBodyAcc_mean_X			
 time-based body acceleration  mean along X axis				-0.040514 to 0.3015
-###tBodyAcc_mean_Y			
+####tBodyAcc_mean_Y			
 time-based body acceleration  mean along Y axis				-0.15251 to -0.001308	
-###tBodyAcc_mean_Z			
+####tBodyAcc_mean_Z			
 time-based body acceleration  mean along Z axis				-0.9961 to -0.07538	
-* tBodyAcc_std_X			
+####tBodyAcc_std_X			
 time-based body acceleration standard deviation along X axis			-0.99024 to  0.6269	
-* tBodyAcc_std_Y			
+####tBodyAcc_std_Y			
 time-based body acceleration standard deviation along Y axis			-0.9877 to  0.61694	
-tBodyAcc_std_Z			time-based body acceleration standard deviation along Z axis			-0.6800 to  0.6090	
-tGravityAcc_mean_X			time-based  gravity acceleration  mean along X axis				-0.47989 to  0.9745	
-tGravityAcc_mean_Y			time-based  gravity acceleration  mean along Y axis				-0.49509 to  0.95659	
-tGravityAcc_mean_Z			time-based  gravity acceleration  mean along Z axis				-0.9968 to  0.95787	
-tGravityAcc_std_X			time-based  gravity acceleration standard deviation along X axis			-0.9942 to -0.8296	
-tGravityAcc_std_Y			time-based  gravity acceleration standard deviation along Y axis			-0.9910 to -0.6436	
+####tBodyAcc_std_Z			time-based body acceleration standard deviation along Z axis			-0.6800 to  0.6090	
+####tGravityAcc_mean_X			time-based  gravity acceleration  mean along X axis				-0.47989 to  0.9745	
+####tGravityAcc_mean_Y			time-based  gravity acceleration  mean along Y axis				-0.49509 to  0.95659	
+####tGravityAcc_mean_Z			time-based  gravity acceleration  mean along Z axis				-0.9968 to  0.95787	
+####tGravityAcc_std_X			time-based  gravity acceleration standard deviation along X axis			-0.9942 to -0.8296	
+####tGravityAcc_std_Y			time-based  gravity acceleration standard deviation along Y axis			-0.9910 to -0.6436	
 tGravityAcc_std_Z			time-based  gravity acceleration standard deviation along Z axis			0.04269 to -0.6102	
 tBodyAccJerk_mean_X		time-based body acceleration jerk  mean along X axis			-0.0386872 to 0.13019	
 tBodyAccJerk_mean_Y		time-based body acceleration jerk  mean along Y axis			-0.067458 to  0.0568186	
