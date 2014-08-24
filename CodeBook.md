@@ -11,7 +11,7 @@ All  of the numeric variables are means of measurements taken within the treatme
 
 ##Variables			
 
-###subject
+####subject
 ID of subject wearing the Samsung Galaxy S with accelerometer and gyroscope
 ###activity				
 activity during measurement
