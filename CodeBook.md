@@ -26,47 +26,86 @@ time-based body acceleration  mean along Z axis				-0.9961 to -0.07538
 time-based body acceleration standard deviation along X axis			-0.99024 to  0.6269	
 ####tBodyAcc_std_Y			
 time-based body acceleration standard deviation along Y axis			-0.9877 to  0.61694	
-####tBodyAcc_std_Z			time-based body acceleration standard deviation along Z axis			-0.6800 to  0.6090	
-####tGravityAcc_mean_X			time-based  gravity acceleration  mean along X axis				-0.47989 to  0.9745	
-####tGravityAcc_mean_Y			time-based  gravity acceleration  mean along Y axis				-0.49509 to  0.95659	
-####tGravityAcc_mean_Z			time-based  gravity acceleration  mean along Z axis				-0.9968 to  0.95787	
-####tGravityAcc_std_X			time-based  gravity acceleration standard deviation along X axis			-0.9942 to -0.8296	
-####tGravityAcc_std_Y			time-based  gravity acceleration standard deviation along Y axis			-0.9910 to -0.6436	
-tGravityAcc_std_Z			time-based  gravity acceleration standard deviation along Z axis			0.04269 to -0.6102	
-tBodyAccJerk_mean_X		time-based body acceleration jerk  mean along X axis			-0.0386872 to 0.13019	
-tBodyAccJerk_mean_Y		time-based body acceleration jerk  mean along Y axis			-0.067458 to  0.0568186	
-tBodyAccJerk_mean_Z		time-based body acceleration jerk  mean along Z axis			-0.9946 to  0.038053	
-tBodyAccJerk_std_X			time-based body acceleration jerk of standard deviation along X axis		-0.9895 to  0.5443	
-tBodyAccJerk_std_Y			time-based body acceleration jerk of standard deviation along Y axis		-0.99329 to  0.3553	
-tBodyAccJerk_std_Z			time-based body acceleration jerk of standard deviation along Z axis		-0.20578 to  0.03102	
-tBodyGyro_mean_X			time-based body gyroscopic  mean along X axis				-0.20421 to  0.19270	
-tBodyGyro_mean_Y			time-based body gyroscopic  mean along Y axis				-0.07245 to  0.02747	
-tBodyGyro_mean_Z			time-based body gyroscopic  mean along Z axis				-0.9943 to  0.17910	
-tBodyGyro_std_X			time-based body gyroscopic standard deviation along X axis			-0.9942 to  0.2677	
-tBodyGyro_std_Y			time-based body gyroscopic standard deviation along Y axis			-0.9855 to  0.4765	
-tBodyGyro_std_Z			time-based body gyroscopic standard deviation along Z axis			-0.15721 to  0.5649	
-tBodyGyroJerk_mean_X		time-based body gyroscopic jerk  mean along X axis				-0.07681 to -0.02209	
-tBodyGyroJerk_mean_Y		time-based body gyroscopic jerk  mean along Y axis				-0.092500 to -0.01320	
-tBodyGyroJerk_mean_Z		time-based body gyroscopic jerk  mean along Z axis				-0.9965 to -0.006941	
-tBodyGyroJerk_std_X		time-based body gyroscopic jerk of standard deviation along X axis		-0.9971 to  0.1791	
-tBodyGyroJerk_std_Y		time-based body gyroscopic jerk of standard deviation along Y axis		-0.9954 to  0.2959	
-tBodyGyroJerk_std_Z		time-based body gyroscopic jerk of standard deviation along Z axis		-0.9865 to  0.1932	
-tBodyAccMag_mean			time-based body acceleration magnitude mean				-0.9865 to  0.6446	
-tBodyAccMag_std			time-based body acceleration magnitude of standard deviation			-0.9865 to  0.4284	
-tGravityAccMag_mean		time-based  gravity acceleration magnitude mean				-0.9865 to  0.6446	
-tGravityAccMag_std			time-based  gravity acceleration magnitude of standard deviation		-0.9928 to  0.4284	
-tBodyAccJerkMag_mean		time-based body acceleration jerk magnitude mean				-0.9946 to  0.4345	
-tBodyAccJerkMag_std		time-based body acceleration jerk magnitude of standard deviation		-0.9807 to  0.4506	
-tBodyGyroMag_mean		time-based body gyroscopic magnitude mean				-0.9814 to  0.4180	
-tBodyGyroMag_std			time-based body gyroscopic magnitude of standard deviation			-0.99732 to  0.3000	
-tBodyGyroJerkMag_mean		time-based body gyroscopic jerk magnitude mean				-0.9977 to  0.08758	
-tBodyGyroJerkMag_std		time-based body gyroscopic jerk magnitude of standard deviation		-0.9952 to  0.2502	
+####tBodyAcc_std_Z			
+time-based body acceleration standard deviation along Z axis			-0.6800 to  0.6090	
+####tGravityAcc_mean_X			
+time-based  gravity acceleration  mean along X axis				-0.47989 to  0.9745	
+####tGravityAcc_mean_Y			
+time-based  gravity acceleration  mean along Y axis				-0.49509 to  0.95659	
+####tGravityAcc_mean_Z			
+time-based  gravity acceleration  mean along Z axis				-0.9968 to  0.95787	
+####tGravityAcc_std_X			
+time-based  gravity acceleration standard deviation along X axis			-0.9942 to -0.8296	
+####tGravityAcc_std_Y			
+time-based  gravity acceleration standard deviation along Y axis			-0.9910 to -0.6436	
+####tGravityAcc_std_Z			
+time-based  gravity acceleration standard deviation along Z axis			0.04269 to -0.6102	
+####tBodyAccJerk_mean_X		
+time-based body acceleration jerk  mean along X axis			-0.0386872 to 0.13019	
+####tBodyAccJerk_mean_Y		
+time-based body acceleration jerk  mean along Y axis			-0.067458 to  0.0568186	
+####tBodyAccJerk_mean_Z		
+time-based body acceleration jerk  mean along Z axis			-0.9946 to  0.038053	
+####tBodyAccJerk_std_X			
+time-based body acceleration jerk of standard deviation along X axis		-0.9895 to  0.5443	
+####tBodyAccJerk_std_Y			
+time-based body acceleration jerk of standard deviation along Y axis		-0.99329 to  0.3553	
+####tBodyAccJerk_std_Z			
+time-based body acceleration jerk of standard deviation along Z axis		-0.20578 to  0.03102	
+####tBodyGyro_mean_X			
+time-based body gyroscopic  mean along X axis				-0.20421 to  0.19270	
+####tBodyGyro_mean_Y			
+time-based body gyroscopic  mean along Y axis				-0.07245 to  0.02747	
+####tBodyGyro_mean_Z			
+time-based body gyroscopic  mean along Z axis				-0.9943 to  0.17910	
+####tBodyGyro_std_X			
+time-based body gyroscopic standard deviation along X axis			-0.9942 to  0.2677	
+####tBodyGyro_std_Y			
+time-based body gyroscopic standard deviation along Y axis			-0.9855 to  0.4765	
+####tBodyGyro_std_Z			
+time-based body gyroscopic standard deviation along Z axis			-0.15721 to  0.5649	
+####tBodyGyroJerk_mean_X		
+time-based body gyroscopic jerk  mean along X axis				-0.07681 to -0.02209	
+####tBodyGyroJerk_mean_Y		
+time-based body gyroscopic jerk  mean along Y axis				-0.092500 to -0.01320	
+####tBodyGyroJerk_mean_Z		
+time-based body gyroscopic jerk  mean along Z axis				-0.9965 to -0.006941	
+####tBodyGyroJerk_std_X		
+time-based body gyroscopic jerk of standard deviation along X axis		-0.9971 to  0.1791	
+####tBodyGyroJerk_std_Y		
+time-based body gyroscopic jerk of standard deviation along Y axis		-0.9954 to  0.2959	
+####tBodyGyroJerk_std_Z		
+time-based body gyroscopic jerk of standard deviation along Z axis		-0.9865 to  0.1932	
+####tBodyAccMag_mean			
+time-based body acceleration magnitude mean				-0.9865 to  0.6446	
+####tBodyAccMag_std			
+time-based body acceleration magnitude of standard deviation			-0.9865 to  0.4284	
+####tGravityAccMag_mean		
+time-based  gravity acceleration magnitude mean				-0.9865 to  0.6446	
+####tGravityAccMag_std			
+time-based  gravity acceleration magnitude of standard deviation		-0.9928 to  0.4284	
+####tBodyAccJerkMag_mean		
+time-based body acceleration jerk magnitude mean				-0.9946 to  0.4345	
+####tBodyAccJerkMag_std		
+time-based body acceleration jerk magnitude of standard deviation		-0.9807 to  0.4506	
+####tBodyGyroMag_mean		
+time-based body gyroscopic magnitude mean				-0.9814 to  0.4180	
+####tBodyGyroMag_std			
+time-based body gyroscopic magnitude of standard deviation			-0.99732 to  0.3000	
+####tBodyGyroJerkMag_mean		
+time-based body gyroscopic jerk magnitude mean				-0.9977 to  0.08758	
+####tBodyGyroJerkMag_std		
+time-based body gyroscopic jerk magnitude of standard deviation		-0.9952 to  0.2502	
 
-fBodyAcc_mean_X			frequency-based (FFT) body acceleration  mean along X axis			-0.98903 to  0.5370	
-fBodyAcc_mean_Y			frequency-based (FFT) body acceleration  mean along Y axis			-0.9895 to  0.52419	
-fBodyAcc_mean_Z			frequency-based (FFT) body acceleration  mean along Z axis			-0.9966 to  0.2807	
-fBodyAcc_std_X			frequency-based (FFT) body acceleration standard deviation along X axis		-0.99068 to  0.6585	
-fBodyAcc_std_Y			frequency-based (FFT) body acceleration standard deviation along Y axis		-0.9872 to  0.56019	
+####fBodyAcc_mean_X			
+frequency-based (FFT) body acceleration  mean along X axis			-0.98903 to  0.5370	
+####fBodyAcc_mean_Y			
+frequency-based (FFT) body acceleration  mean along Y axis			-0.9895 to  0.52419	
+####fBodyAcc_mean_Z			
+frequency-based (FFT) body acceleration  mean along Z axis			-0.9966 to  0.2807	
+####fBodyAcc_std_X			
+frequency-based (FFT) body acceleration standard deviation along X axis		-0.99068 to  0.6585	
+####fBodyAcc_std_Y			frequency-based (FFT) body acceleration standard deviation along Y axis		-0.9872 to  0.56019	
 fBodyAcc_std_Z			frequency-based (FFT) body acceleration standard deviation along Z axis		-0.63591 to  0.6871	
 fBodyAcc_meanFreq_X		frequency-based (FFT) body acceleration  of mean frequency along X axis		-0.379518 to  0.15912	
 fBodyAcc_meanFreq_Y		frequency-based (FFT) body acceleration  of mean frequency along Y axis		-0.52011 to  0.466528	
