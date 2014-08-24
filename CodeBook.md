@@ -105,38 +105,73 @@ frequency-based (FFT) body acceleration  mean along Y axis			-0.9895 to  0.52419
 frequency-based (FFT) body acceleration  mean along Z axis			-0.9966 to  0.2807	
 ####fBodyAcc_std_X			
 frequency-based (FFT) body acceleration standard deviation along X axis		-0.99068 to  0.6585	
-####fBodyAcc_std_Y			frequency-based (FFT) body acceleration standard deviation along Y axis		-0.9872 to  0.56019	
-####fBodyAcc_std_Z			frequency-based (FFT) body acceleration standard deviation along Z axis		-0.63591 to  0.6871	
-####fBodyAcc_meanFreq_X		frequency-based (FFT) body acceleration  of mean frequency along X axis		-0.379518 to  0.15912	
-####fBodyAcc_meanFreq_Y		frequency-based (FFT) body acceleration  of mean frequency along Y axis		-0.52011 to  0.466528	
-####fBodyAcc_meanFreq_Z		frequency-based (FFT) body acceleration  of mean frequency along Z axis		-0.9946 to  0.40253	
-####fBodyAccJerk_mean_X		frequency-based (FFT) body acceleration jerk  mean along X axis		-0.9894 to  0.4743	
-####fBodyAccJerk_mean_Y		frequency-based (FFT) body acceleration jerk  mean along Y axis		-0.9920 to  0.2767	
-####fBodyAccJerk_mean_Z		frequency-based (FFT) body acceleration jerk  mean along Z axis		-0.9951 to  0.1578	
-####fBodyAccJerk_std_X			frequency-based (FFT) body acceleration jerk of standard deviation along X axis	-0.9905 to  0.4768	
-####fBodyAccJerk_std_Y			frequency-based (FFT) body acceleration jerk of standard deviation along Y axis	-0.993108 to  0.3498	
-####fBodyAccJerk_std_Z			frequency-based (FFT) body acceleration jerk of standard deviation along Z axis	-0.57604 to -0.006236	
-####fBodyAccJerk_meanFreq_X		frequency-based (FFT) body acceleration jerk  of mean frequency along X axis	-0.60197 to  0.33145	
-####fBodyAccJerk_meanFreq_Y		frequency-based (FFT) body acceleration jerk  of mean frequency along Y axis	-0.62756 to  0.19568	
-####fBodyAccJerk_meanFreq_Z		frequency-based (FFT) body acceleration jerk  of mean frequency along Z axis	-0.9931 to  0.23011	
-####fBodyGyro_mean_X			frequency-based (FFT) body gyroscopic  mean along X axis			-0.9940 to  0.4750	
-####fBodyGyro_mean_Y			frequency-based (FFT) body gyroscopic  mean along Y axis			-0.9860 to  0.3288	
-####fBodyGyro_mean_Z			frequency-based (FFT) body gyroscopic  mean along Z axis			-0.9947 to  0.4924	
-####fBodyGyro_std_X			frequency-based (FFT) body gyroscopic standard deviation along X axis		-0.9944 to  0.1966	
-####fBodyGyro_std_Y			frequency-based (FFT) body gyroscopic standard deviation along Y axis		-0.9867 to  0.6462	
-####fBodyGyro_std_Z			frequency-based (FFT) body gyroscopic standard deviation along Z axis		-0.395770 to  0.5225	
-####fBodyGyro_meanFreq_X		frequency-based (FFT) body gyroscopic  of mean frequency along X axis		-0.66681 to  0.249209	
-####fBodyGyro_meanFreq_Y		frequency-based (FFT) body gyroscopic  of mean frequency along Y axis		-0.50749 to  0.27314	
-####fBodyGyro_meanFreq_Z		frequency-based (FFT) body gyroscopic  of mean frequency along Z axis		-0.9868 to  0.37707	
-####fBodyAccMag_mean			frequency-based (FFT) body acceleration magnitude mean			-0.9876 to  0.5866	
-####fBodyAccMag_std			frequency-based (FFT) body acceleration magnitude of standard deviation		-0.31234 to  0.1787	
-####fBodyAccMag_meanFreq		frequency-based (FFT) body acceleration magnitude of mean frequency		-0.9940 to  0.43585	
-####fBodyBodyAccJerkMag_mean		frequency-based (FFT) body  acceleration jerk magnitude mean			-0.9944 to  0.5384	
-####fBodyBodyAccJerkMag_std		frequency-based (FFT) body  acceleration jerk magnitude of standard deviation	-0.12521 to  0.3163	
-####fBodyBodyAccJerkMag_meanFreq	frequency-based (FFT) body  acceleration jerk magnitude of mean frequency	-0.9865 to  0.48809	
-####fBodyBodyGyroMag_mean		frequency-based (FFT) body  gyroscopic magnitude mean			-0.9815 to  0.2040	
-####fBodyBodyGyroMag_std		frequency-based (FFT) body  gyroscopic magnitude of standard deviation		-0.45664 to  0.2367	
-####fBodyBodyGyroMag_meanFreq		frequency-based (FFT) body  gyroscopic magnitude of mean frequency		-0.9976 to  0.40952	
-####fBodyBodyGyroJerkMag_mean		frequency-based (FFT) body  gyroscopic jerk magnitude mean			-0.9976 to  0.1466	
-####fBodyBodyGyroJerkMag_std		frequency-based (FFT) body  gyroscopic jerk magnitude of standard deviation	-0.18292 to  0.2878	
-####fBodyBodyGyroJerkMag_meanFreq	frequency-based (FFT) body  gyroscopic jerk magnitude of mean frequency	           0 to  0.42630	
+####fBodyAcc_std_Y			
+frequency-based (FFT) body acceleration standard deviation along Y axis		-0.9872 to  0.56019	
+####fBodyAcc_std_Z			
+frequency-based (FFT) body acceleration standard deviation along Z axis		-0.63591 to  0.6871	
+####fBodyAcc_meanFreq_X		
+frequency-based (FFT) body acceleration  of mean frequency along X axis		-0.379518 to  0.15912	
+####fBodyAcc_meanFreq_Y		
+frequency-based (FFT) body acceleration  of mean frequency along Y axis		-0.52011 to  0.466528	
+####fBodyAcc_meanFreq_Z		
+frequency-based (FFT) body acceleration  of mean frequency along Z axis		-0.9946 to  0.40253	
+####fBodyAccJerk_mean_X		
+frequency-based (FFT) body acceleration jerk  mean along X axis		-0.9894 to  0.4743	
+####fBodyAccJerk_mean_Y		
+frequency-based (FFT) body acceleration jerk  mean along Y axis		-0.9920 to  0.2767	
+####fBodyAccJerk_mean_Z		
+frequency-based (FFT) body acceleration jerk  mean along Z axis		-0.9951 to  0.1578	
+####fBodyAccJerk_std_X			
+frequency-based (FFT) body acceleration jerk of standard deviation along X axis	-0.9905 to  0.4768	
+####fBodyAccJerk_std_Y			
+frequency-based (FFT) body acceleration jerk of standard deviation along Y axis	-0.993108 to  0.3498	
+####fBodyAccJerk_std_Z			
+frequency-based (FFT) body acceleration jerk of standard deviation along Z axis	-0.57604 to -0.006236	
+####fBodyAccJerk_meanFreq_X		
+frequency-based (FFT) body acceleration jerk  of mean frequency along X axis	-0.60197 to  0.33145	
+####fBodyAccJerk_meanFreq_Y		
+frequency-based (FFT) body acceleration jerk  of mean frequency along Y axis	-0.62756 to  0.19568	
+####fBodyAccJerk_meanFreq_Z		
+frequency-based (FFT) body acceleration jerk  of mean frequency along Z axis	-0.9931 to  0.23011	
+####fBodyGyro_mean_X			
+frequency-based (FFT) body gyroscopic  mean along X axis			-0.9940 to  0.4750	
+####fBodyGyro_mean_Y			
+frequency-based (FFT) body gyroscopic  mean along Y axis			-0.9860 to  0.3288	
+####fBodyGyro_mean_Z			
+frequency-based (FFT) body gyroscopic  mean along Z axis			-0.9947 to  0.4924	
+####fBodyGyro_std_X			
+frequency-based (FFT) body gyroscopic standard deviation along X axis		-0.9944 to  0.1966	
+####fBodyGyro_std_Y			
+frequency-based (FFT) body gyroscopic standard deviation along Y axis		-0.9867 to  0.6462	
+####fBodyGyro_std_Z			
+frequency-based (FFT) body gyroscopic standard deviation along Z axis		-0.395770 to  0.5225	
+####fBodyGyro_meanFreq_X		
+frequency-based (FFT) body gyroscopic  of mean frequency along X axis		-0.66681 to  0.249209	
+####fBodyGyro_meanFreq_Y		
+frequency-based (FFT) body gyroscopic  of mean frequency along Y axis		-0.50749 to  0.27314	
+####fBodyGyro_meanFreq_Z		
+frequency-based (FFT) body gyroscopic  of mean frequency along Z axis		-0.9868 to  0.37707	
+####fBodyAccMag_mean			
+frequency-based (FFT) body acceleration magnitude mean			-0.9876 to  0.5866	
+####fBodyAccMag_std			
+frequency-based (FFT) body acceleration magnitude of standard deviation		-0.31234 to  0.1787	
+####fBodyAccMag_meanFreq		
+frequency-based (FFT) body acceleration magnitude of mean frequency		-0.9940 to  0.43585	
+####fBodyBodyAccJerkMag_mean		
+frequency-based (FFT) body  acceleration jerk magnitude mean			-0.9944 to  0.5384	
+####fBodyBodyAccJerkMag_std		
+frequency-based (FFT) body  acceleration jerk magnitude of standard deviation	-0.12521 to  0.3163	
+####fBodyBodyAccJerkMag_meanFreq	
+frequency-based (FFT) body  acceleration jerk magnitude of mean frequency	-0.9865 to  0.48809	
+####fBodyBodyGyroMag_mean		
+frequency-based (FFT) body  gyroscopic magnitude mean			-0.9815 to  0.2040	
+####fBodyBodyGyroMag_std		
+frequency-based (FFT) body  gyroscopic magnitude of standard deviation		-0.45664 to  0.2367	
+####fBodyBodyGyroMag_meanFreq		
+frequency-based (FFT) body  gyroscopic magnitude of mean frequency		-0.9976 to  0.40952	
+####fBodyBodyGyroJerkMag_mean		
+frequency-based (FFT) body  gyroscopic jerk magnitude mean			-0.9976 to  0.1466	
+####fBodyBodyGyroJerkMag_std		
+frequency-based (FFT) body  gyroscopic jerk magnitude of standard deviation	-0.18292 to  0.2878	
+####fBodyBodyGyroJerkMag_meanFreq	
+frequency-based (FFT) body  gyroscopic jerk magnitude of mean frequency	           0 to  0.42630	
