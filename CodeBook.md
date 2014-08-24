@@ -24,9 +24,12 @@ NAME					DESCRIPTION					TYPE	RANGE
 
 ###tBodyAcc_mean_Y			
 * time-based body acceleration  mean along Y axis				-0.15251 to -0.001308	
-tBodyAcc_mean_Z			time-based body acceleration  mean along Z axis				-0.9961 to -0.07538	
-tBodyAcc_std_X			time-based body acceleration standard deviation along X axis			-0.99024 to  0.6269	
-tBodyAcc_std_Y			time-based body acceleration standard deviation along Y axis			-0.9877 to  0.61694	
+* tBodyAcc_mean_Z			
+time-based body acceleration  mean along Z axis				-0.9961 to -0.07538	
+* tBodyAcc_std_X			
+time-based body acceleration standard deviation along X axis			-0.99024 to  0.6269	
+* tBodyAcc_std_Y			
+time-based body acceleration standard deviation along Y axis			-0.9877 to  0.61694	
 tBodyAcc_std_Z			time-based body acceleration standard deviation along Z axis			-0.6800 to  0.6090	
 tGravityAcc_mean_X			time-based  gravity acceleration  mean along X axis				-0.47989 to  0.9745	
 tGravityAcc_mean_Y			time-based  gravity acceleration  mean along Y axis				-0.49509 to  0.95659	
