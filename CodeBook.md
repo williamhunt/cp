@@ -2,21 +2,19 @@
 
 There are three types of variables used in this data set: 
 
-	subject	integer	range 1-30
-	activity	factor	LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
-	others	numeric	normalized -1 to +1
+* subject	integer	range 1-30
+* activity	factor	LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+* others	numeric	normalized -1 to +1
 
 All  of the numeric variables are means of measurements taken within the treatment class of subject X activity. They are derived from two sensors on the Samsung Galaxy S smartphone: an accelerometer and a gyroscope. Frequency domain measures were obtained using a Fast Fourier Transform (FFT).
 
 
-###Variables			
-NAME					DESCRIPTION					TYPE	RANGE
+##Variables			
 
 ###subject
 ID of subject wearing the Samsung Galaxy S with accelerometer and gyroscope
-
 ###activity				
-activity during measurement					factor	LAYING, SITTING, STANDING, 												WALKING, 														WALKING_DOWNSTAIRS, 													WALKING_UPSTAIRS
+activity during measurement
 
 ###tBodyAcc_mean_X			
 time-based body acceleration  mean along X axis				-0.040514 to 0.3015
