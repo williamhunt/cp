@@ -13,8 +13,11 @@ All  of the numeric variables are means of measurements taken within the treatme
 
 ####subject
 ID of subject wearing the Samsung Galaxy S with accelerometer and gyroscope
+
+
 ####activity				
 activity during measurement
+
 
 ####tBodyAcc_mean_X			
 time-based body acceleration  mean along X axis				-0.040514 to 0.3015
@@ -96,6 +99,7 @@ time-based body gyroscopic magnitude of standard deviation			-0.99732 to  0.3000
 time-based body gyroscopic jerk magnitude mean				-0.9977 to  0.08758	
 ####tBodyGyroJerkMag_std		
 time-based body gyroscopic jerk magnitude of standard deviation		-0.9952 to  0.2502	
+
 
 ####fBodyAcc_mean_X			
 frequency-based (FFT) body acceleration  mean along X axis			-0.98903 to  0.5370	
